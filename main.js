@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-function processView (fileName) {
+function processView(fileName) {
     return "./html/" + (fileName.trim() === "" ? "index" : fileName.trim()) + ".html"
 }
 
